@@ -1,0 +1,563 @@
+[
+  {
+    "area1Size": 0.25,
+    "area1Type": "UNASSIGNED",
+    "area2Size": 0.25,
+    "area2Type": "UNASSIGNED",
+    "area3Size": 0.25,
+    "area3Type": "UNASSIGNED",
+    "area4Size": 0.25,
+    "area4Type": "UNASSIGNED",
+    "description": "Pavel's simple/sinister timed",
+    "id": 11,
+    "name": "Timed Simple/Sinister",
+    "navBarOrientation": "ASSIGNED_AREA",
+    "root": {
+      "children": [
+        {
+          "children": [],
+          "data": {
+            "type": "TimeBlock",
+            "alertBackgroundColor": -16777216,
+            "alertHalfWay": "NONE",
+            "alertTimeColor": -1,
+            "audioBlocks": [
+              {
+                "activeAt": 3,
+                "alertActive": "BEFORE_END",
+                "audioAlert": "ONCE",
+                "audioVoice": "COUNT_DOWN",
+                "timerSound": "NONE"
+              }
+            ],
+            "backgroundColor": -16777216,
+            "completionAudio": "NONE",
+            "direction": "COUNTING_DOWN",
+            "format": "MINUTES_TWO_LEADING_SECONDS",
+            "hours": 0,
+            "minutes": 0,
+            "playAudio": false,
+            "seconds": 10,
+            "skipLastRep": false,
+            "timeBlockType": "COUNT_DOWN",
+            "timeColor": -1,
+            "typeColor": -1,
+            "userDefinedType": "",
+            "visualActiveAt": "AFTER_START",
+            "visualActiveAtSeconds": 1,
+            "visualAlert": "NONE"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 15,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "HALF_WAY",
+                    "timerSound": "NONE"
+                  },
+                  {
+                    "activeAt": 5,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "ALMOST_THERE",
+                    "timerSound": "NONE"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "COUNTING_DOWN",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 30,
+                "skipLastRep": false,
+                "timeBlockType": "WORK",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            }
+          ],
+          "data": {
+            "type": "RepeaterBlock",
+            "currentRepeatCount": 0,
+            "currentRepeatTotal": 0,
+            "name": "Rounds",
+            "repeat": 10
+          }
+        },
+        {
+          "children": [],
+          "data": {
+            "type": "TimeBlock",
+            "alertBackgroundColor": -16777216,
+            "alertHalfWay": "NONE",
+            "alertTimeColor": -1,
+            "audioBlocks": [
+              {
+                "activeAt": 30,
+                "alertActive": "BEFORE_END",
+                "audioAlert": "ONCE",
+                "audioVoice": "HALF_WAY",
+                "timerSound": "NONE"
+              },
+              {
+                "activeAt": 5,
+                "alertActive": "BEFORE_END",
+                "audioAlert": "ONCE",
+                "audioVoice": "YOU_ARE_AWESOME",
+                "timerSound": "NONE"
+              }
+            ],
+            "backgroundColor": -16777216,
+            "completionAudio": "NONE",
+            "direction": "COUNTING_DOWN",
+            "format": "MINUTES_TWO_LEADING_SECONDS",
+            "hours": 0,
+            "minutes": 1,
+            "playAudio": true,
+            "seconds": 0,
+            "skipLastRep": false,
+            "timeBlockType": "RECOVERY",
+            "timeColor": -1,
+            "typeColor": -1,
+            "userDefinedType": "",
+            "visualActiveAt": "AFTER_START",
+            "visualActiveAtSeconds": 1,
+            "visualAlert": "NONE"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 30,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "HALF_WAY",
+                    "timerSound": "NONE"
+                  },
+                  {
+                    "activeAt": 5,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "BLOODY_HULK",
+                    "timerSound": "NONE"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "COUNTING_DOWN",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 1,
+                "playAudio": true,
+                "seconds": 0,
+                "skipLastRep": false,
+                "timeBlockType": "WORK",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            }
+          ],
+          "data": {
+            "type": "RepeaterBlock",
+            "currentRepeatCount": 0,
+            "currentRepeatTotal": 0,
+            "name": "Rounds",
+            "repeat": 10
+          }
+        },
+        {
+          "children": [],
+          "data": {
+            "type": "TimeBlock",
+            "alertBackgroundColor": -16777216,
+            "alertHalfWay": "NONE",
+            "alertTimeColor": -1,
+            "audioBlocks": [],
+            "backgroundColor": -16777216,
+            "completionAudio": "NONE",
+            "direction": "COUNTING_DOWN",
+            "format": "MINUTES_TWO_LEADING_SECONDS",
+            "hours": 0,
+            "minutes": 0,
+            "playAudio": true,
+            "seconds": 1,
+            "skipLastRep": false,
+            "timeBlockType": "REST",
+            "timeColor": -1,
+            "typeColor": -1,
+            "userDefinedType": "",
+            "visualActiveAt": "AFTER_START",
+            "visualActiveAtSeconds": 1,
+            "visualAlert": "NONE"
+          }
+        }
+      ]
+    },
+    "screenOrientation": "AUTO",
+    "selectedLayout": "DEFAULT_HORIZONTAL"
+  },
+  {
+    "area1Size": 0.25,
+    "area1Type": "UNASSIGNED",
+    "area2Size": 0.25,
+    "area2Type": "UNASSIGNED",
+    "area3Size": 0.25,
+    "area3Type": "UNASSIGNED",
+    "area4Size": 0.25,
+    "area4Type": "UNASSIGNED",
+    "description": "",
+    "id": 12,
+    "name": "Timeless Simple/Sinister",
+    "navBarOrientation": "ASSIGNED_AREA",
+    "root": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 1,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "NONE",
+                    "timerSound": "BEEP"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "COUNTING_DOWN",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 5,
+                "skipLastRep": false,
+                "timeBlockType": "TRANSITION",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            },
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 45,
+                    "alertActive": "AFTER_START",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "NONE",
+                    "timerSound": "RELIEF_1"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "STOPWATCH",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 0,
+                "skipLastRep": false,
+                "timeBlockType": "WORK",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            }
+          ],
+          "data": {
+            "type": "RepeaterBlock",
+            "currentRepeatCount": 0,
+            "currentRepeatTotal": 0,
+            "name": "Rounds",
+            "repeat": 10
+          }
+        },
+        {
+          "children": [],
+          "data": {
+            "type": "TimeBlock",
+            "alertBackgroundColor": -16777216,
+            "alertHalfWay": "NONE",
+            "alertTimeColor": -1,
+            "audioBlocks": [],
+            "backgroundColor": -16777216,
+            "completionAudio": "NONE",
+            "direction": "STOPWATCH",
+            "format": "MINUTES_TWO_LEADING_SECONDS",
+            "hours": 0,
+            "minutes": 0,
+            "playAudio": true,
+            "seconds": 0,
+            "skipLastRep": false,
+            "timeBlockType": "REST",
+            "timeColor": -1,
+            "typeColor": -1,
+            "userDefinedType": "",
+            "visualActiveAt": "AFTER_START",
+            "visualActiveAtSeconds": 1,
+            "visualAlert": "NONE"
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 1,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "NONE",
+                    "timerSound": "BEEP"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "COUNTING_DOWN",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 5,
+                "skipLastRep": false,
+                "timeBlockType": "TRANSITION",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            },
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 30,
+                    "alertActive": "AFTER_START",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "BLOODY_HULK",
+                    "timerSound": "NONE"
+                  },
+                  {
+                    "activeAt": 70,
+                    "alertActive": "AFTER_START",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "GO",
+                    "timerSound": "NONE"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "STOPWATCH",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 0,
+                "skipLastRep": false,
+                "timeBlockType": "WORK",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            }
+          ],
+          "data": {
+            "type": "RepeaterBlock",
+            "currentRepeatCount": 0,
+            "currentRepeatTotal": 0,
+            "name": "Get Ups",
+            "repeat": 10
+          }
+        }
+      ]
+    },
+    "screenOrientation": "AUTO",
+    "selectedLayout": "DEFAULT_HORIZONTAL"
+  },
+  {
+    "area1Size": 0.25,
+    "area1Type": "UNASSIGNED",
+    "area2Size": 0.25,
+    "area2Type": "UNASSIGNED",
+    "area3Size": 0.25,
+    "area3Type": "UNASSIGNED",
+    "area4Size": 0.25,
+    "area4Type": "UNASSIGNED",
+    "description": "",
+    "id": 13,
+    "name": "shoulder stretches",
+    "navBarOrientation": "ASSIGNED_AREA",
+    "root": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 3,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "NONE",
+                    "timerSound": "NEGATIVE"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "COUNTING_DOWN",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 12,
+                "skipLastRep": false,
+                "timeBlockType": "TRANSITION",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            },
+            {
+              "children": [],
+              "data": {
+                "type": "TimeBlock",
+                "alertBackgroundColor": -16777216,
+                "alertHalfWay": "NONE",
+                "alertTimeColor": -1,
+                "audioBlocks": [
+                  {
+                    "activeAt": 5,
+                    "alertActive": "BEFORE_END",
+                    "audioAlert": "ONCE",
+                    "audioVoice": "ALMOST_THERE",
+                    "timerSound": "NONE"
+                  }
+                ],
+                "backgroundColor": -16777216,
+                "completionAudio": "NONE",
+                "direction": "COUNTING_DOWN",
+                "format": "MINUTES_TWO_LEADING_SECONDS",
+                "hours": 0,
+                "minutes": 0,
+                "playAudio": true,
+                "seconds": 30,
+                "skipLastRep": false,
+                "timeBlockType": "WORK",
+                "timeColor": -1,
+                "typeColor": -1,
+                "userDefinedType": "",
+                "visualActiveAt": "AFTER_START",
+                "visualActiveAtSeconds": 1,
+                "visualAlert": "NONE"
+              }
+            }
+          ],
+          "data": {
+            "type": "RepeaterBlock",
+            "currentRepeatCount": 0,
+            "currentRepeatTotal": 0,
+            "name": "Rounds",
+            "repeat": 8
+          }
+        },
+        {
+          "children": [],
+          "data": {
+            "type": "TimeBlock",
+            "alertBackgroundColor": -16777216,
+            "alertHalfWay": "NONE",
+            "alertTimeColor": -1,
+            "audioBlocks": [],
+            "backgroundColor": -16777216,
+            "completionAudio": "NONE",
+            "direction": "COUNTING_DOWN",
+            "format": "MINUTES_TWO_LEADING_SECONDS",
+            "hours": 0,
+            "minutes": 0,
+            "playAudio": true,
+            "seconds": 1,
+            "skipLastRep": false,
+            "timeBlockType": "REST",
+            "timeColor": -1,
+            "typeColor": -1,
+            "userDefinedType": "",
+            "visualActiveAt": "AFTER_START",
+            "visualActiveAtSeconds": 1,
+            "visualAlert": "NONE"
+          }
+        }
+      ]
+    },
+    "screenOrientation": "AUTO",
+    "selectedLayout": "DEFAULT_HORIZONTAL"
+  }
+]
